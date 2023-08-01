@@ -28,9 +28,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  build: {
-    outDir: 'dist/app',
-  },
+  // build: {
+  //   outDir: 'dist/app',
+  // },
   server: {
     host: true,
     port: 5170,
