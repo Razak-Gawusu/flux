@@ -26,9 +26,3 @@ Start dev server
 ```
 yarn run dev:start
 ```
-
-## Run unit tests
-
-```
-yarn run test:unit
-```
