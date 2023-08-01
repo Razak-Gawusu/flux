@@ -1,9 +1,34 @@
-# React + Vite
+# Kanban Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Steps to setup locally
 
-Currently, two official plugins are available:
+### Step 1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# flux
+Navigate to directory where you would want to place kanban-frontend project and enter the command below to clone the project
+
+```
+git clone https://github.com/Razak-Gawusu/kanban-frontend/tree
+```
+
+### Step 2
+
+Change directory into `flux-frontend` and install the packages
+
+```
+cd flux-frontend
+yarn install
+```
+
+### Step 3
+
+Start dev server
+
+```
+yarn run dev:start
+```
+
+## Run unit tests
+
+```
+yarn run test:unit
+```
