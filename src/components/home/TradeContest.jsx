@@ -63,6 +63,7 @@ const Root = styled.div`
   color: var(--white);
   margin-top: 50px;
   .trade__contest {
+    max-width: 1366px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
